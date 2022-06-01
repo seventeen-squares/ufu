@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #e0b285;
+		background: #2a2f4a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2940,7 +2940,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #3b3e52;
 		}
 
 			.spotlights > section > .image {
@@ -3002,7 +3002,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #7f7e7d;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3146,8 +3146,8 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
-				color: #242943;
+				/* background-color: #ffffff; */
+				color: #ffffff;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3155,11 +3155,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				/* background-color: #9bf1ff; */
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				/* background-color: #53e3fb; */
 			}
 
 		#header nav {
@@ -3590,7 +3590,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #f0cba6;
+		background-color: #7f7e7d;
 	}
 
 		#main > * {
