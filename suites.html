@@ -5,160 +5,284 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Generic - Forty by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Generic - Forty by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		.carousel {
+			/* Slideshow container */
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><strong>Ufulu Gardens</strong> <span>Hotel</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+
+		.active {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo"><strong>Ufulu Gardens</strong> <span>Hotel</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="stay.html">Stay</a></li>
+				<li><a href="meet.html">Meet</a></li>
+				<li><a href="eat.html">Eat</a></li>
+				<li><a href="entertain.html">Entertain</a></li>
+				<li><a href="wellness.html">Wellness</a></li>
+				<li><a href="wellness.html">Body</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li><a href="#" class="button primary fit">Book</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main" class="alt">
+
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header class="major">
+						<h1>Suites</h1>
 					</header>
+					<div class="slideshow-container">
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-												<li><a href="index.html">Home</a></li>
-							<li><a href="stay.html">Stay</a></li>
-							<li><a href="meet.html">Meet</a></li>
-							<li><a href="eat.html">Eat</a></li>
-							<li><a href="entertain.html">Entertain</a></li>
-							<li><a href="wellness.html">Wellness</a></li>
-							<li><a href="wellness.html">Body</a></li>	
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Book</a></li>
-						</ul>
-					</nav>
 
-				<!-- Main -->
-					<div id="main" class="alt">
+						<span class="image main carousel">
+							<div class="mySlides fade">
+								<div class="numbertext">1 / 3</div>
+								<img src="images/rooms/THE HOTEL - PJM1.jpg"
+									style="width:100%">
+								<!-- <div class="text">Caption Text</div> -->
+							</div>
 
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h1>Suites</h1>
-									</header>
-									<span class="image main"><img id="slide1" src="images/THE HOTEL - PJM11.jpg" alt="" /></span>
-									<p>Ufulu Gardens offers spacious, recently refurbished hotel suites. Straying from the traditional “long corridor” passageway leading to the rooms, Ufulu Gardens has individual outside access to each suite, ensuring privacy and minimal run-ins with other guests.</p>
-									<p>
-										Each spacious suite is designed for your utmost comfort in mind, with a separate seating and work area in each room, and patio/veranda.  Further ensuring your relaxation and comfort, all suites at Ufulu Gardens are equipped with queen-size beds and plush linen, air-conditioners, mini-fridges, 40-inch flat-screen televisions w/DSTV, telephones, personal safes, and WI-FI.
-									</p>
-								</div>
-							</section>
+							<div class="mySlides fade">
+								<div class="numbertext">2 / 3</div>
+								<img src="images/rooms/THE HOTEL - PJM16.jpg"
+									style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+
 
 					</div>
+					<br>
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">reservations@ufulugardens.mw</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>
-										Tel: (+265) 1 794 060, (+265) 1 794 079 <br>
-										Cell: (+265) 888 994 060, (+265) 996 945 277</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span> 43-365 Ufulu Street<br />
-										Lilongwe<br />
-										Malawi</span>
-									</div>
-								</section>
-							</section>
+					<!-- <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div> -->
+					<!-- <img class="mySlides" src="images/THE HOTEL - PJM11.jpg" alt="" style="display: none;" />
+										<img class="mySlides" src="images/THE HOTEL - PJM7.jpg.jpg" alt="" style="display: none;"/> -->
+					</span>
+					<p>Ufulu Gardens offers spacious, recently refurbished hotel suites. Straying
+						from the traditional “long corridor” passageway leading to the rooms,
+						Ufulu Gardens has individual outside access to each suite, ensuring
+						privacy and minimal run-ins with other guests.</p>
+					<p>
+						Each spacious suite is designed for your utmost comfort in mind, with a
+						separate seating and work area in each room, and patio/veranda. Further
+						ensuring your relaxation and comfort, all suites at Ufulu Gardens are
+						equipped with queen-size beds and plush linen, air-conditioners,
+						mini-fridges, 40-inch flat-screen televisions w/DSTV, telephones,
+						personal safes, and WI-FI.
+					</p>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
+				<section>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message"
+									rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" />
+							</li>
+							<li><input type="reset" value="Clear" /></li>
+						</ul>
+					</form>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-envelope"></span>
+							<h3>Email</h3>
+							<a href="#">reservations@ufulugardens.mw</a>
 						</div>
 					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Ufulu Gardens</li>
-							</ul>
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-phone"></span>
+							<h3>Phone</h3>
+							<span>
+								Tel: (+265) 1 794 060, (+265) 1 794 079 <br>
+								Cell: (+265) 888 994 060, (+265) 996 945 277</span>
 						</div>
-					</footer>
-
+					</section>
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-home"></span>
+							<h3>Address</h3>
+							<span> 43-365 Ufulu Street<br />
+								Lilongwe<br />
+								Malawi</span>
+						</div>
+					</section>
+				</section>
 			</div>
-		<script>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="#" class="icon brands alt fa-twitter"><span
+								class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands alt fa-facebook-f"><span
+								class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands alt fa-instagram"><span
+								class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands alt fa-github"><span
+								class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon brands alt fa-linkedin-in"><span
+								class="label">LinkedIn</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Ufulu Gardens</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+	<script>
+
 		let slideIndex = 0;
 		showSlides();
 
 		function showSlides() {
-		
-		let i = 0;
-		var images = ["images/rooms/THE HOTEL - PJM1.jpg", "images/rooms/THE HOTEL - PJM16.jpg", "images/rooms/THE HOTEL - PJM21.jpg"]
-		let slide = document.getElementById('slide1');
-		for (i = 0; i < images.length; i++) {
-			slide.src = images[slideIndex];
-		}
-		slideIndex++;
-		if (slideIndex > images.length -1) {slideIndex = 0}
-		// slides[slideIndex-1].style.display = "block";
-		setTimeout(showSlides, 5000); // Change image every 2 seconds
-		}
-		
-		</script>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides, 5000);
+			// let i ;
+			// var images = ["images/rooms/THE HOTEL - PJM1.jpg", "images/rooms/THE HOTEL - PJM16.jpg", "images/rooms/THE HOTEL - PJM21.jpg"]
+			// for (i = 1; i < images.length; i++) {
 
-	</body>
+			// 	let slide = document.getElementById('slide'+i);
+			// 	slide.style.display = block;
+			// }
+			// slideIndex++;
+			// if (slideIndex > images.length -1) {slideIndex = 1}
+			// // slides[slideIndex-1].style.display = "block";
+			// setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+
+	</script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
