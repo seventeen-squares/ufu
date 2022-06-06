@@ -50,7 +50,7 @@
 									<header class="major">
 										<h1>Suites</h1>
 									</header>
-									<span class="image main"><img src="images/THE HOTEL - PJM11.jpg" alt="" /></span>
+									<span class="image main"><img id="slide1" src="images/THE HOTEL - PJM11.jpg" alt="" /></span>
 									<p>Ufulu Gardens offers spacious, recently refurbished hotel suites. Straying from the traditional “long corridor” passageway leading to the rooms, Ufulu Gardens has individual outside access to each suite, ensuring privacy and minimal run-ins with other guests.</p>
 									<p>
 										Each spacious suite is designed for your utmost comfort in mind, with a separate seating and work area in each room, and patio/veranda.  Further ensuring your relaxation and comfort, all suites at Ufulu Gardens are equipped with queen-size beds and plush linen, air-conditioners, mini-fridges, 40-inch flat-screen televisions w/DSTV, telephones, personal safes, and WI-FI.
@@ -132,7 +132,25 @@
 					</footer>
 
 			</div>
+		<script>
+		let slideIndex = 0;
+		showSlides();
 
+		function showSlides() {
+		
+		let i = 0;
+		var images = ["images/rooms/THE HOTEL - PJM1.jpg", "images/rooms/THE HOTEL - PJM16.jpg", "images/rooms/THE HOTEL - PJM21.jpg"]
+		let slide = document.getElementById('slide1');
+		for (i = 0; i < images.length; i++) {
+			slide.src = images[slideIndex];
+		}
+		slideIndex++;
+		if (slideIndex > images.length -1) {slideIndex = 0}
+		// slides[slideIndex-1].style.display = "block";
+		setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+		
+		</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

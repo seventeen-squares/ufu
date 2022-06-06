@@ -50,7 +50,7 @@
 									<header class="major">
 										<h1>Apartments</h1>
 									</header>
-									<span class="image main"><img src="images/apartment/THE HOTEL - PJM12.jpg" alt="" /></span>
+									<span class="image main"><img id="slide1" src="images/apartment/THE HOTEL - PJM12.jpg" alt="" /></span>
 									<p>
 										Each luxurious and spacious corporate apartment at Ufulu Gardens offers separate bedrooms and baths, kitchens and dining rooms, and all are fully-furnished with modern décor, full kitchen and dining amenities, telephone and WI-FI access.  Enjoy the majestic scenery, tranquility, and flora and fauna of Ufulu Gardens right from your own private patio/veranda, or choose to stay in and view DSTV on the available 40-inch flat-screen television.  All corporate apartments are fully attended to by our dedicated housekeeping staff daily, so you have more flexibility in your schedule for work or leisure.
 									<p>
@@ -133,7 +133,24 @@
 					</footer>
 
 			</div>
+<script>
+		let slideIndex = 0;
+		showSlides();
 
+		function showSlides() {
+		
+		let i = 0;
+		var images = ["images/apartment/THE HOTEL - PJM12.jpg", "images/apartment/THE HOTEL - PJM9.jpg", "images/apartment/THE HOTEL - PJM21.jpg", "images/apartment/THE HOTEL - PJM24.jpg"]
+		let slide = document.getElementById('slide1');
+		for (i = 0; i < images.length; i++) {
+			slide.src = images[slideIndex];
+		}
+		slideIndex++;
+		if (slideIndex > images.length -1) {slideIndex = 0}
+		// slides[slideIndex-1].style.display = "block";
+		setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+		</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
