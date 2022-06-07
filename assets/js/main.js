@@ -4,6 +4,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+window.addEventListener("load", function() {
+  document.getElementById('my-form').addEventListener("submit", function(e) {
+    e.preventDefault(); // before the code
+    /* do what you want with the form */
+	let name = document.getElementById('name').value;
+	let email = document.getElementById('email').value;
+	let body = document.getElementById('message').value;
+	window.location.href = `mailto:ufulugardens.mw?subject=reservation&body=name: ${name} \nmessage: ${body} `;
+  })
+});
 (function($) {
 
 	var	$window = $(window),
