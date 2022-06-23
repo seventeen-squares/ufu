@@ -2815,6 +2815,13 @@ input, select, textarea {
 				z-index: 1;
 			}
 
+			.cards {
+				box-shadow: 10px 10px 20px 0 rgb(0 0 0 / 40%);
+				width: 80%;
+				margin: auto;
+				margin-top: 1%;
+			}
+
 			.tiles article:hover:before {
 				opacity: 0;
 			}
