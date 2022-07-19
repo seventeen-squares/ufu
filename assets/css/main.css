@@ -2819,7 +2819,7 @@ input, select, textarea {
 			.cards {
 				/* box-shadow:  20px 20px 46px #d4d4d4,
              -20px -20px 46px #ffffff; */
-				/* box-shadow: 10px 10px 20px 0 rgb(0 0 0 / 40%); */
+				box-shadow: 10px 10px 20px 0 rgb(0 0 0 / 40%);
 				width: 80%;
 				margin: auto;
 				margin-top: 1%;
