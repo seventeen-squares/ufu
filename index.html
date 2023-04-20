@@ -14,7 +14,14 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
-
+	<style>
+		.inner-list {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
@@ -33,18 +40,19 @@
 		<!-- Menu -->
 		<nav id="menu">
 			<ul class="links">
-			
-			<li><a href="index.html">Home</a></li>
-			<li><a href="stay.html">Stay</a></li>
-			<li><a href="meet.html">Meet</a></li>
-			<li><a href="eat.html">Eat</a></li>
-			<li><a href="entertain.html">Entertain</a></li>
-			<!-- <li><a href="gallery.html">Gallery</a></li> -->
+
+				<li><a href="index.html">Home</a></li>
+				<li><a href="stay.html">Stay</a></li>
+				<li><a href="meet.html">Meet</a></li>
+				<li><a href="eat.html">Eat</a></li>
+				<li><a href="entertain.html">Entertain</a></li>
+				<!-- <li><a href="gallery.html">Gallery</a></li> -->
 				<!-- <li><a href="entertain.html">Entertain</a></li>
 				<li><a href="wellness.html">Wellness</a></li> -->
 			</ul>
 			<ul class="actions stacked">
-				<li><a href="mailto:reservations@ufulugardens.mw" class="button primary fit">Book</a></li>
+				<li><a href="mailto:reservations@ufulugardens.mw" class="button primary fit">Book</a>
+				</li>
 			</ul>
 		</nav>
 
@@ -54,7 +62,7 @@
 				<header class="major">
 					<h1>Welcome to Ufulu Gardens</h1>
 				</header>
-				
+
 			</div>
 		</section>
 
@@ -133,17 +141,54 @@
 						<h2>Welcome</h2>
 					</header>
 					<p>
-						Ufulu Gardens Hotel and Conference Center is conveniently situated between Kamuzu International Airport and Lilongwe’s City Center in the affluent neighborhood of area 43. 	
+
+						Located in Lilongwe’s affluent Area 43 neighborhood, Ufulu Gardens is a
+						4–star, up-scale hotel and conference center renowned for its
+						meticulously groomed landscape, friendly and attentive staff, and its
+						quiet, relaxing atmosphere. Centrally situated between Kamuzu
+						International Airport and City Center, Ufulu Gardens Hotel is
+						conveniently close to bars and restaurants, shopping centers, and a
+						short drive to the beautiful Lake Malawi.
 					</p>
 					<p>
-						Set amongst an expansive backdrop of lush gardens, Ufulu Gardens offers a tranquil and upscale escape from the bustle of the capital city. 
+
+						Whether for accommodation, conferences, weddings or other functions,
+						Ufulu Gardens Hotel is the ideal destination that transforms ordinary
+						stays and events into special occasions.
 					</p>
 					<p>
-Featuring facilities like a full-service restaurant and bar, complimentary fitness center and pool, meeting facilities, and on-demand guest services, Ufulu Gardens is a top choice among leisure and business travelers alike.  
+
+						Make a booking today!
 					</p>
-					<!-- <ul class="actions">
-						<li><a href="mailto:reservations@ufulugardens.mw" class="button">Book now</a></li>
-					</ul> -->
+
+
+
+					<!--  turn the list below into an unordered list with the checkmarks as bullets -->
+
+
+					
+					<div class="facilities">
+						<!-- Facilities title -->
+						<h2 class="custom-color">
+							Facilities and Services </h2>
+						<!-- Facilities list -->
+						<ul class="inner-list">
+							<li> Apartments with Private Gardens</li>
+							<li> Conference &amp; Board Rooms</li>
+							<li> Restaurant &amp; Bar</li>
+							<li> Swimming Pool</li>
+							<li> Wi-Fi</li>
+							<li> Free Airport Shuttle and Parking
+							</li>
+							<li> Excellent Security</li>
+							<li>
+								 Reliable Water and Electricity
+								Supply</li>
+						</ul>
+					</div>
+
+
+
 				</div>
 			</section>
 
@@ -181,7 +226,8 @@ Featuring facilities like a full-service restaurant and bar, complimentary fitne
 						<div class="contact-method">
 							<span class="icon solid alt fa-envelope"></span>
 							<h3>Email</h3>
-							<a href="mailto:reservations@ufulugardens.mw">reservations@ufulugardens.mw</a>
+							<a
+								href="mailto:reservations@ufulugardens.mw">reservations@ufulugardens.mw</a>
 						</div>
 					</section>
 					<section>
@@ -238,20 +284,20 @@ Featuring facilities like a full-service restaurant and bar, complimentary fitne
 		setTimeout(showSlides, 10000); // Change image every 2 seconds
 
 		function showSlides() {
-		
-		let i = 0;
-		var images = ["images/THE\ HOTEL\ -\ PJM7.jpg", "images/hotel/THE\ HOTEL\ -\ PJM28.jpg"]
-		let slide = document.getElementById('banner');
-		for (i = 0; i < images.length; i++) {
-			console.log(images[slideIndex])
-			slide.style.backgroundImage = 'url("'+images[slideIndex]+'")';
+
+			let i = 0;
+			var images = ["images/THE\ HOTEL\ -\ PJM7.jpg", "images/hotel/THE\ HOTEL\ -\ PJM28.jpg"]
+			let slide = document.getElementById('banner');
+			for (i = 0; i < images.length; i++) {
+				console.log(images[slideIndex])
+				slide.style.backgroundImage = 'url("' + images[slideIndex] + '")';
+			}
+			slideIndex++;
+			if (slideIndex > images.length - 1) { slideIndex = 0 }
+			// slides[slideIndex-1].style.display = "block";
+			setTimeout(showSlides, 10000); // Change image every 2 seconds
 		}
-		slideIndex++;
-		if (slideIndex > images.length -1) {slideIndex = 0}
-		// slides[slideIndex-1].style.display = "block";
-		setTimeout(showSlides, 10000); // Change image every 2 seconds
-		}
-		
+
 	</script>
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
