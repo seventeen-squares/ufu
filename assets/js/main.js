@@ -11,7 +11,7 @@ window.addEventListener("load", function() {
 	let name = document.getElementById('name').value;
 	let email = document.getElementById('email').value;
 	let body = document.getElementById('message').value;
-	window.location.href = `mailto:ufulugardens.mw?subject=reservation&body=name: ${name} \nmessage: ${body} `;
+	window.location.href = `mailto:ufulugardens.mw?subject=Enquiry&body=name: ${name} \nmessage: ${body} `;
   })
 });
 (function($) {
