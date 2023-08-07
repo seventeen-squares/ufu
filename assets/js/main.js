@@ -11,7 +11,13 @@ window.addEventListener("load", function() {
 	let name = document.getElementById('name').value;
 	let email = document.getElementById('email').value;
 	let body = document.getElementById('message').value;
-	window.location.href = `mailto:ufulugardens.mw?subject=Enquiry&body=name: ${name} \nmessage: ${body} `;
+	// window.location.href = `mailto:ufulugardens.mw?subject=Enquiry&body=name: ${name} \nmessage: ${body} `;
+	/*get the input values and change them to a mailto link that is sanitized*/
+	let mailto_link = 'mailto:ufulugardens.mw?subject=Enquiry&body=name: '+name+'%0Aemail: '+email+'%0Amessage: '+body;
+	window.open(mailto_link, 'emailWindow');
+
+
+				
   })
 });
 (function($) {
